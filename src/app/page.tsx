@@ -12,16 +12,14 @@ export default function Home() {
   }
 
   return (
-    <div className={styles.page}>
-      <main className={styles.main}>
-        <h1>
-          PayPay 決済テスト
-        </h1>
+    <div className={styles.main}>
+      <h1>
+        PayPay 決済テスト
+      </h1>
 
-        <button onClick={handlePayPayPayment}>
-          支払う
-        </button>
-      </main>
+      <button type="button" onClick={handlePayPayPayment}>
+        支払う
+      </button>
     </div>
   );
 }
